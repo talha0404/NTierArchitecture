@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32106.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTierArchitecture", "NTierArchitecture\NTierArchitecture.csproj", "{22822C67-5073-41FB-B2BF-E5482512C9D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NTierArchitecture", "NTierArchitecture\NTierArchitecture.csproj", "{22822C67-5073-41FB-B2BF-E5482512C9D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTierArchtitecture.Domain", "NTierArchtitecture.Domain\NTierArchtitecture.Domain.csproj", "{BA9E3400-0557-4DF5-BBDC-C893A41AD89C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTierArchitecture.EFCore", "NTierArchitecture.EFCore\NTierArchitecture.EFCore.csproj", "{1E6891B2-E6DD-4BAC-9FD9-7248BCFA3205}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTierArchitecture.Services", "NTierArchitecture.Services\NTierArchitecture.Services.csproj", "{A91061E6-9A6F-49F9-804E-43498CABA1AC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{22822C67-5073-41FB-B2BF-E5482512C9D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22822C67-5073-41FB-B2BF-E5482512C9D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22822C67-5073-41FB-B2BF-E5482512C9D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA9E3400-0557-4DF5-BBDC-C893A41AD89C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA9E3400-0557-4DF5-BBDC-C893A41AD89C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA9E3400-0557-4DF5-BBDC-C893A41AD89C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA9E3400-0557-4DF5-BBDC-C893A41AD89C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E6891B2-E6DD-4BAC-9FD9-7248BCFA3205}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E6891B2-E6DD-4BAC-9FD9-7248BCFA3205}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E6891B2-E6DD-4BAC-9FD9-7248BCFA3205}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E6891B2-E6DD-4BAC-9FD9-7248BCFA3205}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A91061E6-9A6F-49F9-804E-43498CABA1AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A91061E6-9A6F-49F9-804E-43498CABA1AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A91061E6-9A6F-49F9-804E-43498CABA1AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A91061E6-9A6F-49F9-804E-43498CABA1AC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,2 @@
+﻿Servis Katmanımızda Veri tabanı ile ilgili olan işlemlerimizi gerçekleştireceğiz. Burada Dependency Injection kullanacağımız için her modelin 
+bir servisi ve bunlara implemente olan interfaceleri bulunacak. Ayrıca buradaki Interfaceleri proje katmanında Injection ederek kullanacağız
