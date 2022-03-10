@@ -17,9 +17,9 @@ namespace NTierArchitecture.Services.Base
         //We need to add Context Class to access our db from services. Due to that we are giving reference our EfCore solution to use dbcontext
 
         private readonly NTierArchitectureDbContext _nTierArchitectureDbContext; //used Readonly  we can only assign value on constructors.
-        private readonly DbSet<T> _dbSet;
+        private readonly DbSet<T> _dbSet;  //This is abstract Class. It can't be new 
 
-        public BaseService(NTierArchitectureDbContext nTierArchitectureDbContext, DbSet<T> dbSet)
+        public BaseService(NTierArchitectureDbContext nTierArchitectureDbContext)
         {
             _nTierArchitectureDbContext = nTierArchitectureDbContext;
             _dbSet = _nTierArchitectureDbContext.Set<T>();

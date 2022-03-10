@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NTierArchtitecture.Domain.Base
 {
-    interface IEntity
+    public interface IEntity
     {
         long Id { get; set; }
 

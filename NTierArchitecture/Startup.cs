@@ -60,6 +60,11 @@ namespace NTierArchitecture
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
+
+                endpoints.MapControllerRoute(
+                    name: "default",
+                    pattern: "{controller=HomePage}/{action=Index}"
+                    );
             });
         }
     }

@@ -13,8 +13,6 @@ namespace NTierArchitecture.EFCore
     {
         public NTierArchitectureDbContext(DbContextOptions<NTierArchitectureDbContext> options) : base(options) { }
 
-        public DbSet<Customer> Customers { get; set; }
-
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             //Mapi Yapmamızın amacı veri tabanında tabloyu oluştururken propertylerini oluşturuyoruz. Migration kısmında dbye kolonların propertyleri ile oluşturuyoruz.
@@ -22,5 +20,7 @@ namespace NTierArchitecture.EFCore
             modelBuilder.ApplyConfiguration(new CustomerMap());
             base.OnModelCreating(modelBuilder);
         }
+
+        public DbSet<Customer> Customers { get; set; }
     }
 }
