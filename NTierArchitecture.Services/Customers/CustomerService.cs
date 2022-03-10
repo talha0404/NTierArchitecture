@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace NTierArchitecture.Services.Customers
 {
-    class CustomerService : BaseService<Customer>, ICustomerService
+    public class CustomerService : BaseService<Customer>, ICustomerService
     {
     }
 }
