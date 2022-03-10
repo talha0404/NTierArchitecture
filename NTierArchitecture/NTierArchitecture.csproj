@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\NTierArchitecture.EFCore\NTierArchitecture.EFCore.csproj" />
+    <ProjectReference Include="..\NTierArchitecture.Services\NTierArchitecture.Services.csproj" />
   </ItemGroup>
 
 </Project>
