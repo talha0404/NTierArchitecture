@@ -6,6 +6,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using NTierArchitecture.EFCore;
+using NTierArchitecture.Services.Customers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -29,6 +30,8 @@ namespace NTierArchitecture
                 options.UseSqlServer(Configuration.GetConnectionString("ConnectionStrings")));
 
             services.AddRazorPages();
+
+            services.AddTransient<ICustomerService, CustomerService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
