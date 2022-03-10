@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace NTierArchitecture.Services.Base
 {
-    interface IBaseService<T> where T : Entity
+    public interface IBaseService<T> where T : Entity
     {
     }
 }

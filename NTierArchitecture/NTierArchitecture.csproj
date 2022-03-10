@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.14">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -13,6 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\NTierArchitecture.EFCore\NTierArchitecture.EFCore.csproj" />
+    <ProjectReference Include="..\NTierArchitecture.Services\NTierArchitecture.Services.csproj" />
   </ItemGroup>
 
 </Project>
