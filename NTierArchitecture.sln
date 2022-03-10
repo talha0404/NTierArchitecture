@@ -5,11 +5,19 @@ VisualStudioVersion = 16.0.32106.194
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NTierArchitecture", "NTierArchitecture\NTierArchitecture.csproj", "{22822C67-5073-41FB-B2BF-E5482512C9D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTierArchtitecture.Domain", "NTierArchtitecture.Domain\NTierArchtitecture.Domain.csproj", "{BA9E3400-0557-4DF5-BBDC-C893A41AD89C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NTierArchtitecture.Domain", "NTierArchtitecture.Domain\NTierArchtitecture.Domain.csproj", "{BA9E3400-0557-4DF5-BBDC-C893A41AD89C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTierArchitecture.EFCore", "NTierArchitecture.EFCore\NTierArchitecture.EFCore.csproj", "{1E6891B2-E6DD-4BAC-9FD9-7248BCFA3205}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NTierArchitecture.EFCore", "NTierArchitecture.EFCore\NTierArchitecture.EFCore.csproj", "{1E6891B2-E6DD-4BAC-9FD9-7248BCFA3205}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTierArchitecture.Services", "NTierArchitecture.Services\NTierArchitecture.Services.csproj", "{A91061E6-9A6F-49F9-804E-43498CABA1AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NTierArchitecture.Services", "NTierArchitecture.Services\NTierArchitecture.Services.csproj", "{A91061E6-9A6F-49F9-804E-43498CABA1AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTierArchitecture.API", "NTierArchitecture.API\NTierArchitecture.API.csproj", "{C9D4952D-EE9D-42F9-834C-9D85EFB37379}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resources", "Resources\Resources.csproj", "{DE620AEF-44AA-45E5-9168-044CFC6F5F1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTierArchitecture.DTO", "NTierArchitecture.DTO\NTierArchitecture.DTO.csproj", "{8F4968BA-F76B-481D-B7EE-624A774F236A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTierArchitecture.Helpers", "NTierArchitecture.Helpers\NTierArchitecture.Helpers.csproj", "{FA4FF8E8-D4D5-4D01-9EC3-E2D209BD0A44}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +41,22 @@ Global
 		{A91061E6-9A6F-49F9-804E-43498CABA1AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A91061E6-9A6F-49F9-804E-43498CABA1AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A91061E6-9A6F-49F9-804E-43498CABA1AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9D4952D-EE9D-42F9-834C-9D85EFB37379}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9D4952D-EE9D-42F9-834C-9D85EFB37379}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9D4952D-EE9D-42F9-834C-9D85EFB37379}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9D4952D-EE9D-42F9-834C-9D85EFB37379}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE620AEF-44AA-45E5-9168-044CFC6F5F1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE620AEF-44AA-45E5-9168-044CFC6F5F1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE620AEF-44AA-45E5-9168-044CFC6F5F1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE620AEF-44AA-45E5-9168-044CFC6F5F1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F4968BA-F76B-481D-B7EE-624A774F236A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F4968BA-F76B-481D-B7EE-624A774F236A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F4968BA-F76B-481D-B7EE-624A774F236A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F4968BA-F76B-481D-B7EE-624A774F236A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA4FF8E8-D4D5-4D01-9EC3-E2D209BD0A44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA4FF8E8-D4D5-4D01-9EC3-E2D209BD0A44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA4FF8E8-D4D5-4D01-9EC3-E2D209BD0A44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA4FF8E8-D4D5-4D01-9EC3-E2D209BD0A44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

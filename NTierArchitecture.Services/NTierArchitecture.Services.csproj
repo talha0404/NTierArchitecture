@@ -5,6 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NTierArchitecture.DTO\NTierArchitecture.DTO.csproj" />
+    <ProjectReference Include="..\NTierArchitecture.EFCore\NTierArchitecture.EFCore.csproj" />
     <ProjectReference Include="..\NTierArchtitecture.Domain\NTierArchtitecture.Domain.csproj" />
   </ItemGroup>
 
