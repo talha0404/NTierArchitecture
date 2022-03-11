@@ -9,5 +9,6 @@ namespace NTierArchitecture.Services.Base
 {
     public interface IBaseService<T> where T : Entity
     {
+        IQueryable<T> GetAllRecords();
     }
 }
